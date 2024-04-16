@@ -7,3 +7,6 @@ To pack this into a .msapp file, clone the repository, delete use README.md, .gi
 ```
 pac canvas pack --msapp "Med in Mind.msapp" --sources FromSourceFolder
 ```
+Mobile QR code
+
+![image](https://github.com/ItsYourFriendFred/MedinMind-msapp/assets/112927300/c635279c-0c15-40c7-ad7d-a7cbb1593045)
