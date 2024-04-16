@@ -1,0 +1,92 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders for Meals (Forms)",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders06dc5_forms",
+      "Namespace": "Reminders (Forms)1",
+      "Values": {
+        "Information": "64a76bee-899a-4c77-a11f-b9b7eebac4fa"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders_1 (Forms)",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)11",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)2",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)3",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)4",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)5",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)6",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    },
+    {
+      "Kind": "default.cds_crf86_reminders63bf1_forms",
+      "Namespace": "Reminders (Forms)7",
+      "Values": {
+        "Information": "2d5bcb10-3008-4248-a201-ff9bf54f5ee3"
+      }
+    }
+  ]
+}

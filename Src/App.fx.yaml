@@ -1,0 +1,12 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: =Set(varUserEmail, User().Email);
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

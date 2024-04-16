@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Reminders for Meals\",\"%DataSourceValue.AFD%\":\"[@'Reminders for Meals']\",\"%SortFieldName.AFD%\":\"\\\"crf86_descrip\\\"\",\"%FilterFieldName.AFD%\":\"crf86_descrip\",\"%PrimaryNameField.AFD%\":\"\\\"crf86_mealid\\\"\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Meal ID'\",\"%SearchFieldName.AFD%\":\"\\\"crf86_descrip\\\",\\\"crf86_mealid\\\",\\\"crf86_mealnam\\\"\",\"%StartsWithFieldName.AFD%\":\"crf86_descrip\",\"%DeleteConfirmFieldName.AFD%\":\"crf86_descrip\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"MainScreen1\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}

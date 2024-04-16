@@ -1,0 +1,128 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crf86_reminders63bf1s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crf86_reminders63bf1",
+    "MaxGetRowsCount": 500,
+    "Name": "Reminders",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "crf86_descrip": "Instructions",
+      "crf86_dosage": "Dosage",
+      "crf86_mealid": "ID",
+      "crf86_mealnam": "Reminder Name",
+      "crf86_reminders63bf1_AsyncOperations": "System Jobs",
+      "crf86_reminders63bf1_BulkDeleteFailures": "Bulk Delete Failures",
+      "crf86_reminders63bf1_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crf86_reminders63bf1_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crf86_reminders63bf1_ProcessSession": "Process Sessions",
+      "crf86_reminders63bf1_SyncErrors": "Sync Errors",
+      "crf86_reminders63bf1id": "Reminders",
+      "crf86_SystemUser": "User",
+      "crf86_time": "Time",
+      "crf86_type": "Medication Type",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Reminders",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Reminders (Views)",
+    "Name": "_crf86_reminders63bf1_views",
+    "RelatedEntityName": "Reminders",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2b5f69a5-480c-4412-9a3d-52c7c2fff36c": "Reminders for Meals Advanced Find View",
+      "806a3e4c-d738-4de5-96de-fa61a342c816": "Reminders for Meals Associated View",
+      "a3028125-6f25-4d45-9433-fb4bd4272ba0": "Inactive Reminders for Meals",
+      "e5b347c2-feb1-401e-b8c9-8df59519fa5e": "Reminders for Meals Lookup View",
+      "fa5d7be3-1fce-49a1-925e-d5f6221353a6": "Active Reminders for Meals"
+    }
+  },
+  {
+    "DisplayName": "Status (Reminders)",
+    "Name": "crf86_reminders63bf1_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Reminders"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Reminders",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Reminders)",
+    "Name": "crf86_reminders63bf1_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Reminders"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Reminders",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Medication Types",
+    "Name": "crf86_types",
+    "OptionSetInfoNameMapping": {
+      "585650000": "Tablet",
+      "585650001": "Capsule",
+      "585650002": "Liquid",
+      "585650003": "Topical",
+      "585650004": "Suppository",
+      "585650005": "Drop",
+      "585650006": "Inhaler",
+      "585650007": "Injection",
+      "585650008": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crf86_type",
+        "OptionSetReferenceEntityName": "Reminders"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crf86_type",
+    "RelatedEntityName": "Reminders",
+    "Type": "OptionSetInfo"
+  }
+]
